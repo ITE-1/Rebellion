@@ -1,8 +1,8 @@
 import React, {useContext, useState} from 'react';
 import {Routes, Route, Link, Navigate } from 'react-router-dom';
 import './App.scss';
-import './components/ui/button.js';
-import { ButtonEntrance } from '../src/components/';
+import './components/enter/enter.scss';
+import { ButtonEntrance } from './components/ui/button.js';
 import { MyContext } from './context/globalCoxtext';
 
 const Modal = ({value}) => {
